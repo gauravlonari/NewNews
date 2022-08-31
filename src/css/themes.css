@@ -1,0 +1,18 @@
+.theme-light{
+    background-color:white;
+    color:black;
+}
+.theme-dark{
+    background-color:  #121212;
+    color: #FAF9F6;
+}
+*.theme-light{
+    --primary-color:black;
+    --secondary-color:grey;
+}
+*.theme-dark{
+    --primary-color:#FAF9F6;
+    --secondary-color:whitesmoke;
+    --primary-bg:#121212;
+    --secondary-bg:#212121;
+}

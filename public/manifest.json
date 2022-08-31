@@ -1,0 +1,9 @@
+{
+  "short_name": "NewNews",
+  "name": "NewNews : Daily News App",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
