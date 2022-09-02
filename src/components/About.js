@@ -5,7 +5,7 @@ export default function About() {
     const contexx=useContext(context);
   return (
     <div className="container w-75 text-center" style={{marginTop:"5vh"}}>
-      <table class={`table table-${contexx.theme.color!=="#000"?"dark":"light"} table-striped-columns`}>
+      <table className={`table table-${contexx.theme.color!=="#000"?"dark":"light"} table-striped-columns`}>
         <tbody>
           <tr>
             <th scope="row">What is NewNews</th>

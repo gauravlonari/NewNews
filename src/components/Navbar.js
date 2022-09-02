@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom';
 import React from 'react'
+import VisitCount from './VisitCount';
 
 export default function Navbar(props) {
   
@@ -43,6 +44,10 @@ export default function Navbar(props) {
               <li className="nav-item">
                 <Link className="nav-link" to="/about">About</Link>
               </li>
+              <li className="nav-item align-self-center mx-3">
+                <VisitCount/>
+              </li>
+              
             </ul> 
             <span className="navbar-text">
               Daily Dose of Latest News!
